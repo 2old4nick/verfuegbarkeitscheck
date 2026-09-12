@@ -1,6 +1,5 @@
 import json
 import os
-import html
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
@@ -35,7 +34,7 @@ def save_status(data, path="status.json"):
 def check_url(url, browser):
     try:
         page = browser.new_page(user_agent=USER_AGENT)
-        response = page.goto(url, timeout=45000, wait_until="load")
+        page.goto(url, timeout=45000, wait_until="load")
 
         # Manche Bibliotheksseiten haben einen JS-Bot-Schutz, der die Seite nach
         # einem kurzen Skript per document.location.reload() neu lädt.
@@ -47,35 +46,17 @@ def check_url(url, browser):
             pass
 
         text = page.inner_text("body")
-        final_url = page.url
-        http_status = response.status if response else None
         page.close()
 
         text_lower = text.lower()
         if "nicht verfügbar" in text_lower:
-            status = "nicht verfügbar"
+            return "nicht verfügbar"
         elif "verfügbar" in text_lower:
-            status = "verfügbar"
+            return "verfügbar"
         else:
-            status = "unbekannt"
-
-        idx = text_lower.find("verf")
-        if idx != -1:
-            snippet = text[max(0, idx - 60):idx + 80]
-        else:
-            snippet = text[:1500] if len(text) <= 2000 else text[:300]
-        snippet = " ".join(snippet.split())
-        snippet = html.escape(snippet)
-
-        debug = {
-            "http_status": http_status,
-            "final_url_changed": final_url != url,
-            "content_length": len(text),
-            "snippet": snippet,
-        }
-        return status, debug
+            return "unbekannt"
     except Exception as e:
-        return f"fehler: {e}", {}
+        return f"fehler: {e}"
 
 
 def build_html(status, path="index.html"):
@@ -85,14 +66,11 @@ def build_html(status, path="index.html"):
             "verfügbar": "#1a7f37",
             "nicht verfügbar": "#cf222e",
         }.get(info["status"], "#9a6700")
-        debug = info.get("debug", {})
         rows.append(
             f"""
         <tr>
           <td><a href="{url}" target="_blank">{info['name']}</a></td>
           <td style="color:{color}; font-weight:bold;">{info['status']}</td>
-          <td>{info['last_checked']}</td>
-          <td style="font-size:0.75rem; color:#888;">HTTP {debug.get('http_status', '?')} · umgeleitet: {debug.get('final_url_changed', '?')} · {debug.get('content_length', '?')} Zeichen · {debug.get('snippet', '')}</td>
         </tr>"""
         )
     html_out = f"""<!DOCTYPE html>
@@ -102,7 +80,7 @@ def build_html(status, path="index.html"):
 <title>Verfügbarkeits-Check</title>
 <style>
   body {{ font-family: system-ui, sans-serif; margin: 2rem; background:#fafafa; }}
-  table {{ border-collapse: collapse; width: 100%; max-width: 1100px; }}
+  table {{ border-collapse: collapse; width: 100%; max-width: 800px; }}
   th, td {{ border: 1px solid #ddd; padding: 0.6rem; text-align: left; }}
   th {{ background:#f0f0f0; }}
   h1 {{ font-size: 1.4rem; }}
@@ -113,7 +91,7 @@ def build_html(status, path="index.html"):
 <h1>Verfügbarkeits-Check</h1>
 <div class="meta">Letztes Update: {datetime.now(BERLIN).strftime('%d.%m.%Y %H:%M')} Uhr</div>
 <table>
-<tr><th>Titel</th><th>Status</th><th>Zuletzt geprüft</th><th>Debug-Ausschnitt</th></tr>
+<tr><th>Titel</th><th>Status</th></tr>
 {''.join(rows)}
 </table>
 </body>
@@ -140,7 +118,7 @@ def main():
         for entry in urls:
             url = entry["url"]
             name = entry.get("name", url)
-            res_status, debug = check_url(url, browser)
+            res_status = check_url(url, browser)
             history = status.get(url, {}).get("history", [])
             history.append({"time": now.isoformat(), "status": res_status})
             history = history[-20:]
@@ -149,7 +127,6 @@ def main():
                 "status": res_status,
                 "last_checked": now.strftime("%d.%m.%Y %H:%M"),
                 "history": history,
-                "debug": debug,
             }
         browser.close()
 
