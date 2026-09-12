@@ -3,10 +3,15 @@ import os
 import html
 from datetime import datetime
 from zoneinfo import ZoneInfo
-import requests
+from playwright.sync_api import sync_playwright
 
 BERLIN = ZoneInfo("Europe/Berlin")
 TARGET_HOURS = {10, 17}  # Uhrzeiten (Berliner Zeit), zu denen wirklich geprüft wird
+
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+)
 
 
 def load_urls(path="urls.json"):
@@ -27,11 +32,25 @@ def save_status(data, path="status.json"):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def check_url(url):
+def check_url(url, browser):
     try:
-        r = requests.get(url, timeout=20, headers={"User-Agent": "Mozilla/5.0"})
-        r.encoding = r.apparent_encoding
-        text = r.text
+        page = browser.new_page(user_agent=USER_AGENT)
+        response = page.goto(url, timeout=45000, wait_until="load")
+
+        # Manche Bibliotheksseiten haben einen JS-Bot-Schutz, der die Seite nach
+        # einem kurzen Skript per document.location.reload() neu lädt.
+        # Daher: kurz warten und erneut auf Netzwerk-Ruhe warten.
+        page.wait_for_timeout(3000)
+        try:
+            page.wait_for_load_state("networkidle", timeout=15000)
+        except Exception:
+            pass
+
+        text = page.inner_text("body")
+        final_url = page.url
+        http_status = response.status if response else None
+        page.close()
+
         text_lower = text.lower()
         if "nicht verfügbar" in text_lower:
             status = "nicht verfügbar"
@@ -40,21 +59,17 @@ def check_url(url):
         else:
             status = "unbekannt"
 
-        # Diagnose-Info: kurzer Ausschnitt rund um "verf" bzw. die ersten Zeichen,
-        # damit wir bei "unbekannt" sehen können, was die Seite tatsächlich liefert.
         idx = text_lower.find("verf")
         if idx != -1:
             snippet = text[max(0, idx - 60):idx + 80]
         else:
-            # Bei kleinen Antworten (z.B. Teil-Fragmenten) lieber mehr zeigen
             snippet = text[:1500] if len(text) <= 2000 else text[:300]
-        snippet = " ".join(snippet.split())  # Whitespace/Zeilenumbrüche glätten
-        snippet = html.escape(snippet)  # HTML-Sonderzeichen sichtbar machen statt sie rendern zu lassen
+        snippet = " ".join(snippet.split())
+        snippet = html.escape(snippet)
 
         debug = {
-            "http_status": r.status_code,
-            "final_url_changed": r.url != url,
-            "encoding": r.encoding,
+            "http_status": http_status,
+            "final_url_changed": final_url != url,
             "content_length": len(text),
             "snippet": snippet,
         }
@@ -70,23 +85,24 @@ def build_html(status, path="index.html"):
             "verfügbar": "#1a7f37",
             "nicht verfügbar": "#cf222e",
         }.get(info["status"], "#9a6700")
+        debug = info.get("debug", {})
         rows.append(
             f"""
         <tr>
           <td><a href="{url}" target="_blank">{info['name']}</a></td>
           <td style="color:{color}; font-weight:bold;">{info['status']}</td>
           <td>{info['last_checked']}</td>
-          <td style="font-size:0.75rem; color:#888;">HTTP {info.get('debug', {}).get('http_status', '?')} · umgeleitet: {info.get('debug', {}).get('final_url_changed', '?')} · {info.get('debug', {}).get('content_length', '?')} Zeichen · {info.get('debug', {}).get('snippet', '')}</td>
+          <td style="font-size:0.75rem; color:#888;">HTTP {debug.get('http_status', '?')} · umgeleitet: {debug.get('final_url_changed', '?')} · {debug.get('content_length', '?')} Zeichen · {debug.get('snippet', '')}</td>
         </tr>"""
         )
-    html = f"""<!DOCTYPE html>
+    html_out = f"""<!DOCTYPE html>
 <html lang="de">
 <head>
 <meta charset="UTF-8">
 <title>Verfügbarkeits-Check</title>
 <style>
   body {{ font-family: system-ui, sans-serif; margin: 2rem; background:#fafafa; }}
-  table {{ border-collapse: collapse; width: 100%; max-width: 800px; }}
+  table {{ border-collapse: collapse; width: 100%; max-width: 1100px; }}
   th, td {{ border: 1px solid #ddd; padding: 0.6rem; text-align: left; }}
   th {{ background:#f0f0f0; }}
   h1 {{ font-size: 1.4rem; }}
@@ -103,7 +119,7 @@ def build_html(status, path="index.html"):
 </body>
 </html>"""
     with open(path, "w", encoding="utf-8") as f:
-        f.write(html)
+        f.write(html_out)
 
 
 def main():
@@ -119,24 +135,23 @@ def main():
     urls = load_urls()
     status = load_status()
 
-    for entry in urls:
-        url = entry["url"]
-        name = entry.get("name", url)
-        result = check_url(url)
-        if isinstance(result, tuple):
-            res_status, debug = result
-        else:
-            res_status, debug = result, {}
-        history = status.get(url, {}).get("history", [])
-        history.append({"time": now.isoformat(), "status": res_status})
-        history = history[-20:]
-        status[url] = {
-            "name": name,
-            "status": res_status,
-            "last_checked": now.strftime("%d.%m.%Y %H:%M"),
-            "history": history,
-            "debug": debug,
-        }
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        for entry in urls:
+            url = entry["url"]
+            name = entry.get("name", url)
+            res_status, debug = check_url(url, browser)
+            history = status.get(url, {}).get("history", [])
+            history.append({"time": now.isoformat(), "status": res_status})
+            history = history[-20:]
+            status[url] = {
+                "name": name,
+                "status": res_status,
+                "last_checked": now.strftime("%d.%m.%Y %H:%M"),
+                "history": history,
+                "debug": debug,
+            }
+        browser.close()
 
     save_status(status)
     build_html(status)
