@@ -1,4 +1,5 @@
 import json
+import os
 from datetime import datetime
 from zoneinfo import ZoneInfo
 import requests
@@ -84,7 +85,8 @@ def build_html(status, path="index.html"):
 
 def main():
     now = datetime.now(BERLIN)
-    if now.hour not in TARGET_HOURS:
+    force = os.environ.get("FORCE_CHECK", "false").lower() == "true"
+    if not force and now.hour not in TARGET_HOURS:
         print(
             f"Aktuelle Berliner Zeit {now.strftime('%H:%M')} liegt außerhalb der "
             f"Prüf-Fenster {TARGET_HOURS}. Abbruch ohne Prüfung."
