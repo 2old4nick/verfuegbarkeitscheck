@@ -30,15 +30,33 @@ def check_url(url):
     try:
         r = requests.get(url, timeout=20, headers={"User-Agent": "Mozilla/5.0"})
         r.encoding = r.apparent_encoding
-        text = r.text.lower()
-        if "nicht verfügbar" in text:
-            return "nicht verfügbar"
-        elif "verfügbar" in text:
-            return "verfügbar"
+        text = r.text
+        text_lower = text.lower()
+        if "nicht verfügbar" in text_lower:
+            status = "nicht verfügbar"
+        elif "verfügbar" in text_lower:
+            status = "verfügbar"
         else:
-            return "unbekannt"
+            status = "unbekannt"
+
+        # Diagnose-Info: kurzer Ausschnitt rund um "verf" bzw. die ersten Zeichen,
+        # damit wir bei "unbekannt" sehen können, was die Seite tatsächlich liefert.
+        idx = text_lower.find("verf")
+        if idx != -1:
+            snippet = text[max(0, idx - 60):idx + 80]
+        else:
+            snippet = text[:300]
+        snippet = " ".join(snippet.split())  # Whitespace/Zeilenumbrüche glätten
+
+        debug = {
+            "http_status": r.status_code,
+            "encoding": r.encoding,
+            "content_length": len(text),
+            "snippet": snippet,
+        }
+        return status, debug
     except Exception as e:
-        return f"fehler: {e}"
+        return f"fehler: {e}", {}
 
 
 def build_html(status, path="index.html"):
@@ -54,6 +72,7 @@ def build_html(status, path="index.html"):
           <td><a href="{url}" target="_blank">{info['name']}</a></td>
           <td style="color:{color}; font-weight:bold;">{info['status']}</td>
           <td>{info['last_checked']}</td>
+          <td style="font-size:0.75rem; color:#888;">{info.get('debug', {}).get('snippet', '')}</td>
         </tr>"""
         )
     html = f"""<!DOCTYPE html>
@@ -74,7 +93,7 @@ def build_html(status, path="index.html"):
 <h1>Verfügbarkeits-Check</h1>
 <div class="meta">Letztes Update: {datetime.now(BERLIN).strftime('%d.%m.%Y %H:%M')} Uhr</div>
 <table>
-<tr><th>Titel</th><th>Status</th><th>Zuletzt geprüft</th></tr>
+<tr><th>Titel</th><th>Status</th><th>Zuletzt geprüft</th><th>Debug-Ausschnitt</th></tr>
 {''.join(rows)}
 </table>
 </body>
@@ -100,14 +119,19 @@ def main():
         url = entry["url"]
         name = entry.get("name", url)
         result = check_url(url)
+        if isinstance(result, tuple):
+            res_status, debug = result
+        else:
+            res_status, debug = result, {}
         history = status.get(url, {}).get("history", [])
-        history.append({"time": now.isoformat(), "status": result})
+        history.append({"time": now.isoformat(), "status": res_status})
         history = history[-20:]
         status[url] = {
             "name": name,
-            "status": result,
+            "status": res_status,
             "last_checked": now.strftime("%d.%m.%Y %H:%M"),
             "history": history,
+            "debug": debug,
         }
 
     save_status(status)
