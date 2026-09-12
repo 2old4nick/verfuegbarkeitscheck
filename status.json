@@ -3,7 +3,7 @@
     "name": "Bau-Simulator 4",
     "status": "nicht verfügbar",
     "return_date": "08.10.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -23,6 +23,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -31,7 +35,7 @@
     "name": "Bibi & Tina - Auf dem Martinshof",
     "status": "nicht verfügbar",
     "return_date": "30.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -51,6 +55,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -59,7 +67,7 @@
     "name": "Super Mario 3D World + Bowser's Fury",
     "status": "nicht verfügbar",
     "return_date": "24.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -79,6 +87,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -87,7 +99,7 @@
     "name": "PAW Patrol - Der Kinofilm: Abenteuerstadt ruft",
     "status": "nicht verfügbar",
     "return_date": "08.10.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -107,6 +119,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -115,7 +131,7 @@
     "name": "Super Mario Bros. Wonder",
     "status": "nicht verfügbar",
     "return_date": "24.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -135,6 +151,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -143,7 +163,7 @@
     "name": "Instant Chef Party - Nintendo Switch",
     "status": "nicht verfügbar",
     "return_date": "08.10.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -163,6 +183,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -171,7 +195,7 @@
     "name": "Kids vs Parents - Nintendo Switch : wer gewinnt, der entscheidet!",
     "status": "nicht verfügbar",
     "return_date": "08.10.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -191,6 +215,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -199,7 +227,7 @@
     "name": "Nickelodeon Kart Racers 3 - Slime Speedway",
     "status": "nicht verfügbar",
     "return_date": "25.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -219,6 +247,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -227,7 +259,7 @@
     "name": "Barbie Dreamhouse Adventures",
     "status": "nicht verfügbar",
     "return_date": "15.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -247,6 +279,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -255,7 +291,7 @@
     "name": "Overcooked! + Overcooked! 2",
     "status": "verfügbar",
     "return_date": null,
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -275,6 +311,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "verfügbar"
       }
     ]
@@ -283,7 +323,7 @@
     "name": "Super Mario galaxy + Super Mario galaxy 2",
     "status": "nicht verfügbar",
     "return_date": "06.10.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -323,6 +363,14 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -331,7 +379,7 @@
     "name": "Nintendo Switch Sports",
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -351,6 +399,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -359,7 +411,7 @@
     "name": "Paw Patrol: Mighty Pups - Die Rettung der Abenteuerbucht",
     "status": "nicht verfügbar",
     "return_date": "15.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -379,6 +431,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -387,7 +443,7 @@
     "name": "Catan",
     "status": "nicht verfügbar",
     "return_date": "26.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -407,6 +463,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -415,7 +475,7 @@
     "name": "Little kitty, big city",
     "status": "nicht verfügbar",
     "return_date": "30.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -435,6 +495,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -443,7 +507,7 @@
     "name": "Cat rescue story",
     "status": "nicht verfügbar",
     "return_date": "01.10.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -463,6 +527,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -471,7 +539,7 @@
     "name": "Mario Party Superstars",
     "status": "nicht verfügbar",
     "return_date": "24.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -491,6 +559,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -499,7 +571,7 @@
     "name": "Family fun night",
     "status": "verfügbar",
     "return_date": null,
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -519,6 +591,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "verfügbar"
       }
     ]
@@ -527,7 +603,7 @@
     "name": "Instant sports - Tennis",
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -547,6 +623,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -555,7 +635,7 @@
     "name": "Barbie - Das Freundschaftsprojekt",
     "status": "nicht verfügbar",
     "return_date": "15.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -575,6 +655,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -583,7 +667,7 @@
     "name": "Taxi Chaos",
     "status": "verfügbar",
     "return_date": "08.10.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -603,6 +687,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "verfügbar"
       }
     ]
@@ -611,7 +699,7 @@
     "name": "Super Mario Party",
     "status": "nicht verfügbar",
     "return_date": "30.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -631,6 +719,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -639,7 +731,7 @@
     "name": "51 worldwide games",
     "status": "nicht verfügbar",
     "return_date": "06.10.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -659,6 +751,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -667,7 +763,7 @@
     "name": "Hello Kitty island adventures",
     "status": "nicht verfügbar",
     "return_date": "18.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -687,6 +783,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -695,7 +795,7 @@
     "name": "Miraculous: rise of the sphinx",
     "status": "nicht verfügbar",
     "return_date": "30.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -715,6 +815,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -723,7 +827,7 @@
     "name": "Garfield - Lasagna party",
     "status": "nicht verfügbar",
     "return_date": "15.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -743,6 +847,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -751,7 +859,7 @@
     "name": "Paw Patrol - Grand Prix",
     "status": "nicht verfügbar",
     "return_date": "15.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -771,6 +879,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -779,7 +891,7 @@
     "name": "Hunde- und Katzenbabys",
     "status": "nicht verfügbar",
     "return_date": "08.10.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -799,6 +911,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -807,7 +923,7 @@
     "name": "Mario Kart 8 deluxe",
     "status": "nicht verfügbar",
     "return_date": "15.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -827,6 +943,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -835,7 +955,7 @@
     "name": "Meine Tierklinik - Hund & Katze",
     "status": "nicht verfügbar",
     "return_date": "18.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -855,6 +975,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -863,7 +987,7 @@
     "name": "Pierre, der Irrgarten-Detektiv jagt Mr. X",
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -883,6 +1007,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -891,7 +1019,7 @@
     "name": "Landwirtschafts-Simulator 26",
     "status": "nicht verfügbar",
     "return_date": "08.10.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -911,6 +1039,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -919,7 +1051,7 @@
     "name": "Princess Peach - Showtime!",
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -939,6 +1071,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -947,7 +1083,7 @@
     "name": "Super Mario 3D - All Stars",
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -967,6 +1103,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -975,7 +1115,7 @@
     "name": "It takes two",
     "status": "nicht verfügbar",
     "return_date": "02.10.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -995,6 +1135,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1003,7 +1147,7 @@
     "name": "Bus Simulator",
     "status": "nicht verfügbar",
     "return_date": "18.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -1023,6 +1167,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1031,7 +1179,7 @@
     "name": "Bibi & Tina: das Spiel zum Kinofilm",
     "status": "nicht verfügbar",
     "return_date": "30.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -1051,6 +1199,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1059,7 +1211,7 @@
     "name": "Instant sports - winter games",
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -1079,6 +1231,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1087,7 +1243,7 @@
     "name": "Hello Kitty and friends - Freeze tag party",
     "status": "verfügbar",
     "return_date": null,
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -1107,6 +1263,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "verfügbar"
       }
     ]
@@ -1115,7 +1275,7 @@
     "name": "Garfield Kart - Furious racing",
     "status": "nicht verfügbar",
     "return_date": "01.10.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -1135,6 +1295,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1143,7 +1307,7 @@
     "name": "30 Sport Games in 1",
     "status": "nicht verfügbar",
     "return_date": "26.09.26",
-    "last_checked": "12.09.2026 15:11",
+    "last_checked": "12.09.2026 15:29",
     "history": [
       {
         "time": "2026-09-12T12:45:35.069460+02:00",
@@ -1163,6 +1327,10 @@
       },
       {
         "time": "2026-09-12T15:11:45.836581+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-12T15:29:59.003286+02:00",
         "status": "nicht verfügbar"
       }
     ]
