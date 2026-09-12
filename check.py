@@ -50,6 +50,7 @@ def check_url(url):
 
         debug = {
             "http_status": r.status_code,
+            "final_url_changed": r.url != url,
             "encoding": r.encoding,
             "content_length": len(text),
             "snippet": snippet,
@@ -72,7 +73,7 @@ def build_html(status, path="index.html"):
           <td><a href="{url}" target="_blank">{info['name']}</a></td>
           <td style="color:{color}; font-weight:bold;">{info['status']}</td>
           <td>{info['last_checked']}</td>
-          <td style="font-size:0.75rem; color:#888;">{info.get('debug', {}).get('snippet', '')}</td>
+          <td style="font-size:0.75rem; color:#888;">HTTP {info.get('debug', {}).get('http_status', '?')} · umgeleitet: {info.get('debug', {}).get('final_url_changed', '?')} · {info.get('debug', {}).get('content_length', '?')} Zeichen · {info.get('debug', {}).get('snippet', '')}</td>
         </tr>"""
         )
     html = f"""<!DOCTYPE html>
