@@ -78,10 +78,24 @@ def check_url(url, browser):
         return f"fehler: {e}", None
 
 
+def parse_date(date_str):
+    if not date_str:
+        return None
+    for fmt in ("%d.%m.%Y", "%d.%m.%y"):
+        try:
+            return datetime.strptime(date_str, fmt)
+        except ValueError:
+            continue
+    return None
+
+
 def build_html(status, path="index.html"):
     items = sorted(
         status.items(),
-        key=lambda kv: STATUS_PRIORITY.get(kv[1]["status"], 3),
+        key=lambda kv: (
+            STATUS_PRIORITY.get(kv[1]["status"], 3),
+            parse_date(kv[1].get("return_date")) or datetime.max,
+        ),
     )
     rows = []
     for url, info in items:
@@ -93,9 +107,9 @@ def build_html(status, path="index.html"):
         rows.append(
             f"""
         <tr>
-          <td><a href="{url}" target="_blank">{info['name']}</a></td>
-          <td style="color:{color}; font-weight:bold;">{info['status']}</td>
-          <td>{return_date}</td>
+          <td class="nowrap"><a href="{url}" target="_blank">{info['name']}</a></td>
+          <td class="nowrap" style="color:{color}; font-weight:bold;">{info['status']}</td>
+          <td class="nowrap">{return_date}</td>
         </tr>"""
         )
     html_out = f"""<!DOCTYPE html>
@@ -105,8 +119,10 @@ def build_html(status, path="index.html"):
 <title>Verfügbarkeits-Check</title>
 <style>
   body {{ font-family: system-ui, sans-serif; margin: 2rem; background:#fafafa; }}
-  table {{ border-collapse: collapse; width: 100%; max-width: 800px; }}
+  .table-wrap {{ overflow-x: auto; max-width: 100%; }}
+  table {{ border-collapse: collapse; width: max-content; min-width: 100%; }}
   th, td {{ border: 1px solid #ddd; padding: 0.6rem; text-align: left; }}
+  td.nowrap {{ white-space: nowrap; }}
   th {{ background:#f0f0f0; }}
   h1 {{ font-size: 1.4rem; }}
   .meta {{ color:#666; font-size:0.9rem; margin-bottom:1rem;}}
@@ -115,10 +131,12 @@ def build_html(status, path="index.html"):
 <body>
 <h1>Verfügbarkeits-Check</h1>
 <div class="meta">Letztes Update: {datetime.now(BERLIN).strftime('%d.%m.%Y %H:%M')} Uhr</div>
+<div class="table-wrap">
 <table>
 <tr><th>Titel</th><th>Status</th><th>Voraussichtliche Rückgabe</th></tr>
 {''.join(rows)}
 </table>
+</div>
 </body>
 </html>"""
     with open(path, "w", encoding="utf-8") as f:
