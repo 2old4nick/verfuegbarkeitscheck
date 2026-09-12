@@ -1,7 +1,6 @@
 import json
 import os
 import re
-import html
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
@@ -108,7 +107,7 @@ def build_html(status, path="index.html"):
         rows.append(
             f"""
         <tr>
-          <td class="nowrap"><a href="{html.escape(url)}" target="_blank">{info['name']}</a></td>
+          <td class="nowrap">{info['name']}</td>
           <td class="nowrap" style="color:{color}; font-weight:bold;">{info['status']}</td>
           <td class="nowrap">{return_date}</td>
         </tr>"""
