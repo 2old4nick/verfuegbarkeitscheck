@@ -1,5 +1,6 @@
 import json
 import os
+import re
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
@@ -11,6 +12,13 @@ USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 )
+
+# Reihenfolge für die Sortierung der Ergebnis-Tabelle
+STATUS_PRIORITY = {
+    "verfügbar": 0,
+    "nicht verfügbar": 1,
+    "unbekannt": 2,
+}
 
 
 def load_urls(path="urls.json"):
@@ -50,27 +58,44 @@ def check_url(url, browser):
 
         text_lower = text.lower()
         if "nicht verfügbar" in text_lower:
-            return "nicht verfügbar"
+            status = "nicht verfügbar"
         elif "verfügbar" in text_lower:
-            return "verfügbar"
+            status = "verfügbar"
         else:
-            return "unbekannt"
+            status = "unbekannt"
+
+        return_date = None
+        match = re.search(
+            r"rückgabedatum\D{0,20}(\d{1,2}\.\d{1,2}\.\d{2,4})",
+            text,
+            re.IGNORECASE,
+        )
+        if match:
+            return_date = match.group(1)
+
+        return status, return_date
     except Exception as e:
-        return f"fehler: {e}"
+        return f"fehler: {e}", None
 
 
 def build_html(status, path="index.html"):
+    items = sorted(
+        status.items(),
+        key=lambda kv: STATUS_PRIORITY.get(kv[1]["status"], 3),
+    )
     rows = []
-    for url, info in status.items():
+    for url, info in items:
         color = {
             "verfügbar": "#1a7f37",
             "nicht verfügbar": "#cf222e",
         }.get(info["status"], "#9a6700")
+        return_date = info.get("return_date") or "–"
         rows.append(
             f"""
         <tr>
           <td><a href="{url}" target="_blank">{info['name']}</a></td>
           <td style="color:{color}; font-weight:bold;">{info['status']}</td>
+          <td>{return_date}</td>
         </tr>"""
         )
     html_out = f"""<!DOCTYPE html>
@@ -91,7 +116,7 @@ def build_html(status, path="index.html"):
 <h1>Verfügbarkeits-Check</h1>
 <div class="meta">Letztes Update: {datetime.now(BERLIN).strftime('%d.%m.%Y %H:%M')} Uhr</div>
 <table>
-<tr><th>Titel</th><th>Status</th></tr>
+<tr><th>Titel</th><th>Status</th><th>Voraussichtliche Rückgabe</th></tr>
 {''.join(rows)}
 </table>
 </body>
@@ -118,13 +143,14 @@ def main():
         for entry in urls:
             url = entry["url"]
             name = entry.get("name", url)
-            res_status = check_url(url, browser)
+            res_status, return_date = check_url(url, browser)
             history = status.get(url, {}).get("history", [])
             history.append({"time": now.isoformat(), "status": res_status})
             history = history[-20:]
             status[url] = {
                 "name": name,
                 "status": res_status,
+                "return_date": return_date,
                 "last_checked": now.strftime("%d.%m.%Y %H:%M"),
                 "history": history,
             }
