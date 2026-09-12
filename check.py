@@ -1,5 +1,6 @@
 import json
 import os
+import html
 from datetime import datetime
 from zoneinfo import ZoneInfo
 import requests
@@ -45,8 +46,10 @@ def check_url(url):
         if idx != -1:
             snippet = text[max(0, idx - 60):idx + 80]
         else:
-            snippet = text[:300]
+            # Bei kleinen Antworten (z.B. Teil-Fragmenten) lieber mehr zeigen
+            snippet = text[:1500] if len(text) <= 2000 else text[:300]
         snippet = " ".join(snippet.split())  # Whitespace/Zeilenumbrüche glätten
+        snippet = html.escape(snippet)  # HTML-Sonderzeichen sichtbar machen statt sie rendern zu lassen
 
         debug = {
             "http_status": r.status_code,
