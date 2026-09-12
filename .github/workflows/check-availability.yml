@@ -1,0 +1,38 @@
+name: Verfügbarkeits-Check
+
+on:
+  schedule:
+    # 4 UTC-Zeitpunkte, damit 10:00 & 17:00 Berliner Zeit sowohl im Winter (UTC+1)
+    # als auch im Sommer (UTC+2) abgedeckt sind. check.py filtert die "falschen" Läufe selbst raus.
+    - cron: '0 8 * * *'
+    - cron: '0 9 * * *'
+    - cron: '0 15 * * *'
+    - cron: '0 16 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Abhängigkeiten installieren
+        run: pip install requests
+
+      - name: Check ausführen
+        run: python check.py
+
+      - name: Ergebnisse committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add status.json index.html
+          git diff --quiet --cached || git commit -m "Update Verfügbarkeits-Status"
+          git push
