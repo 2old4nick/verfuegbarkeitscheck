@@ -120,7 +120,7 @@ def build_html(status, path="index.html"):
 <style>
   body {{ font-family: system-ui, sans-serif; margin: 2rem; background:#fafafa; }}
   .table-wrap {{ overflow-x: auto; max-width: 100%; }}
-  table {{ border-collapse: collapse; width: max-content; min-width: 100%; }}
+  table {{ border-collapse: collapse; width: max-content; }}
   th, td {{ border: 1px solid #ddd; padding: 0.6rem; text-align: left; }}
   td.nowrap {{ white-space: nowrap; }}
   th {{ background:#f0f0f0; }}
