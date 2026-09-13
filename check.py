@@ -6,7 +6,7 @@ from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
 BERLIN = ZoneInfo("Europe/Berlin")
-TARGET_HOURS = {10, 17}  # Uhrzeiten (Berliner Zeit), zu denen wirklich geprüft wird
+TARGET_HOURS = {10, 13, 17}  # Uhrzeiten (Berliner Zeit), zu denen wirklich geprüft wird
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
