@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import requests
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
@@ -76,6 +77,22 @@ def check_url(url, browser):
         return status, return_date
     except Exception as e:
         return f"fehler: {e}", None
+
+
+def send_telegram_message(text):
+    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    if not token or not chat_id:
+        print("Telegram nicht konfiguriert, überspringe Benachrichtigung.")
+        return
+    try:
+        requests.post(
+            f"https://api.telegram.org/bot{token}/sendMessage",
+            data={"chat_id": chat_id, "text": text},
+            timeout=10,
+        )
+    except Exception as e:
+        print(f"Telegram-Benachrichtigung fehlgeschlagen: {e}")
 
 
 def parse_date(date_str):
@@ -161,7 +178,12 @@ def main():
         for entry in urls:
             url = entry["url"]
             name = entry.get("name", url)
+            old_status = status.get(url, {}).get("status")
             res_status, return_date = check_url(url, browser)
+
+            if old_status != "verfügbar" and res_status == "verfügbar":
+                send_telegram_message(f"📚 Jetzt verfügbar: {name}\n{url}")
+
             history = status.get(url, {}).get("history", [])
             history.append({"time": now.isoformat(), "status": res_status})
             history = history[-20:]
