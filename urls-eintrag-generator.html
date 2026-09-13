@@ -73,6 +73,11 @@
 <label for="url">URL der Katalogseite</label>
 <textarea id="url" rows="4" placeholder="https://offenburg.arena.axiell.de/..."></textarea>
 
+<label style="display:flex; align-items:center; gap:0.5rem; font-weight:normal; margin-top:1rem;">
+  <input type="checkbox" id="notify" style="width:auto; margin:0;">
+  Bei Verfügbarkeit per Telegram benachrichtigen
+</label>
+
 <button onclick="generate()">JSON-Eintrag erzeugen</button>
 
 <div id="output">
@@ -95,7 +100,8 @@ function generate() {
 
   const entry = {
     name: name,
-    url: url
+    url: url,
+    notify: document.getElementById('notify').checked
   };
 
   const json = JSON.stringify(entry, null, 2)
