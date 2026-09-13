@@ -121,12 +121,14 @@ def build_html(status, path="index.html"):
             "nicht verfügbar": "#cf222e",
         }.get(info["status"], "#9a6700")
         return_date = info.get("return_date") or "–"
+        notify_icon = "🔔" if info.get("notify") else ""
         rows.append(
             f"""
         <tr>
           <td class="nowrap">{info['name']}</td>
           <td class="nowrap" style="color:{color}; font-weight:bold;">{info['status']}</td>
           <td class="nowrap">{return_date}</td>
+          <td class="nowrap" style="text-align:center;">{notify_icon}</td>
         </tr>"""
         )
     html_out = f"""<!DOCTYPE html>
@@ -150,7 +152,7 @@ def build_html(status, path="index.html"):
 <div class="meta">Letztes Update: {datetime.now(BERLIN).strftime('%d.%m.%Y %H:%M')} Uhr</div>
 <div class="table-wrap">
 <table>
-<tr><th>Titel</th><th>Status</th><th>Voraussichtliche Rückgabe</th></tr>
+<tr><th>Titel</th><th>Status</th><th>Voraussichtliche Rückgabe</th><th>🔔</th></tr>
 {''.join(rows)}
 </table>
 </div>
@@ -191,6 +193,7 @@ def main():
                 "name": name,
                 "status": res_status,
                 "return_date": return_date,
+                "notify": entry.get("notify", False),
                 "last_checked": now.strftime("%d.%m.%Y %H:%M"),
                 "history": history,
             }
