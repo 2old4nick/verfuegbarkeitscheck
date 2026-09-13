@@ -16,7 +16,7 @@ USER_AGENT = (
 
 # Reihenfolge für die Sortierung der Ergebnis-Tabelle
 STATUS_PRIORITY = {
-    "verfügbar": 0,
+    "verfügbar": 00,
     "nicht verfügbar": 1,
     "unbekannt": 2,
 }
