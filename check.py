@@ -182,7 +182,7 @@ def main():
             res_status, return_date = check_url(url, browser)
 
             if old_status != "verfügbar" and res_status == "verfügbar":
-                send_telegram_message(f"📚 Jetzt verfügbar: {name}\n{url}")
+                send_telegram_message(f"📚 Jetzt verfügbar: {name}")
 
             history = status.get(url, {}).get("history", [])
             history.append({"time": now.isoformat(), "status": res_status})
