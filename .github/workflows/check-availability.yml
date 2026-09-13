@@ -2,10 +2,12 @@ name: Verfügbarkeits-Check
 
 on:
   schedule:
-    # 4 UTC-Zeitpunkte, damit 10:00 & 17:00 Berliner Zeit sowohl im Winter (UTC+1)
+    # 6 UTC-Zeitpunkte, damit 10:00, 13:00 & 17:00 Berliner Zeit sowohl im Winter (UTC+1)
     # als auch im Sommer (UTC+2) abgedeckt sind. check.py filtert die "falschen" Läufe selbst raus.
     - cron: '0 8 * * *'
     - cron: '0 9 * * *'
+    - cron: '0 11 * * *'
+    - cron: '0 12 * * *'
     - cron: '0 15 * * *'
     - cron: '0 16 * * *'
   workflow_dispatch: {}
