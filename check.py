@@ -181,7 +181,7 @@ def main():
             old_status = status.get(url, {}).get("status")
             res_status, return_date = check_url(url, browser)
 
-            if old_status != "verfügbar" and res_status == "verfügbar":
+            if entry.get("notify", False) and old_status != "verfügbar" and res_status == "verfügbar":
                 send_telegram_message(f"📚 Jetzt verfügbar: {name}")
 
             history = status.get(url, {}).get("history", [])
