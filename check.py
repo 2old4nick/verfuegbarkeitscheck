@@ -183,7 +183,13 @@ def main():
             old_status = status.get(url, {}).get("status")
             res_status, return_date = check_url(url, browser)
 
-            if entry.get("notify", False) and old_status != "verfügbar" and res_status == "verfügbar":
+            should_notify = entry.get("notify", False) and old_status != "verfügbar" and res_status == "verfügbar"
+            print(
+                f"[{name}] notify-Feld={entry.get('notify', False)!r} | "
+                f"alter Status={old_status!r} | neuer Status={res_status!r} | "
+                f"wird benachrichtigt={should_notify}"
+            )
+            if should_notify:
                 send_telegram_message(f"📚 Jetzt verfügbar: {name}")
 
             history = status.get(url, {}).get("history", [])
