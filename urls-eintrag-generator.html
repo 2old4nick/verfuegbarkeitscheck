@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>urls.json – Eintrag erzeugen</title>
+<style>
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    max-width: 640px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+    color: #1c1c1c;
+    background: #fbfbfa;
+  }
+  h1 { font-size: 1.3rem; margin-bottom: 0.3rem; }
+  p.hint { color: #666; font-size: 0.9rem; margin-top: 0; }
+  label { display: block; margin-top: 1.2rem; font-weight: 600; font-size: 0.9rem; }
+  input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.55rem 0.7rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-family: inherit;
+  }
+  button {
+    margin-top: 1.3rem;
+    padding: 0.6rem 1.1rem;
+    background: #1a5fb4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+  button:hover { background: #164e93; }
+  #output {
+    margin-top: 1.5rem;
+    display: none;
+  }
+  pre {
+    background: #1e1e1e;
+    color: #d4d4d4;
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-size: 0.85rem;
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+  .copy-btn {
+    background: #444;
+    margin-top: 0.5rem;
+  }
+  .copy-btn:hover { background: #333; }
+  .note {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 0.6rem;
+  }
+</style>
+</head>
+<body>
+
+<h1>Eintrag für urls.json erzeugen</h1>
+<p class="hint">Läuft komplett lokal im Browser – nichts wird irgendwohin gesendet.</p>
+
+<label for="name">Name (wird auf der Ergebnis-Seite angezeigt)</label>
+<input type="text" id="name" placeholder="z.B. Super Mario Party (Switch)">
+
+<label for="url">URL der Katalogseite</label>
+<textarea id="url" rows="4" placeholder="https://offenburg.arena.axiell.de/..."></textarea>
+
+<button onclick="generate()">JSON-Eintrag erzeugen</button>
+
+<div id="output">
+  <label>Fertiger Eintrag zum Einfügen in urls.json</label>
+  <pre id="result"></pre>
+  <button class="copy-btn" onclick="copyResult()">In Zwischenablage kopieren</button>
+  <p class="note" id="copyNote"></p>
+  <p class="note">Füge diesen Block in urls.json ein einer bestehenden Zeile mit einem Komma getrennt hinzu (vor der letzten schließenden eckigen Klammer <code>]</code>).</p>
+</div>
+
+<script>
+function generate() {
+  const name = document.getElementById('name').value.trim();
+  const url = document.getElementById('url').value.trim();
+
+  if (!name || !url) {
+    alert('Bitte sowohl Name als auch URL ausfüllen.');
+    return;
+  }
+
+  const entry = {
+    name: name,
+    url: url
+  };
+
+  const json = JSON.stringify(entry, null, 2)
+    .split('\n')
+    .map(line => '  ' + line)
+    .join('\n');
+
+  document.getElementById('result').textContent = ',\n' + json;
+  document.getElementById('output').style.display = 'block';
+  document.getElementById('copyNote').textContent = '';
+}
+
+function copyResult() {
+  const text = document.getElementById('result').textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    document.getElementById('copyNote').textContent = 'Kopiert!';
+  });
+}
+</script>
+
+</body>
+</html>
