@@ -27,13 +27,15 @@ jobs:
 
       - name: Abhängigkeiten installieren
         run: |
-          pip install playwright
+          pip install playwright requests
           python -m playwright install --with-deps chromium
 
       - name: Check ausführen
         env:
           # Bei manuellem Start (Run workflow) immer prüfen, unabhängig von der Uhrzeit
           FORCE_CHECK: ${{ github.event_name == 'workflow_dispatch' }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python check.py
 
       - name: Ergebnisse committen
