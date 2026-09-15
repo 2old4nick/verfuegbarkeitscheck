@@ -4,7 +4,7 @@
     "status": "nicht verfügbar",
     "return_date": "08.10.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -56,6 +56,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -65,7 +69,7 @@
     "status": "nicht verfügbar",
     "return_date": "30.09.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -117,6 +121,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -126,7 +134,7 @@
     "status": "nicht verfügbar",
     "return_date": "24.09.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -178,6 +186,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -187,7 +199,7 @@
     "status": "nicht verfügbar",
     "return_date": "08.10.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -239,6 +251,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -248,7 +264,7 @@
     "status": "nicht verfügbar",
     "return_date": "24.09.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -300,6 +316,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -309,7 +329,7 @@
     "status": "nicht verfügbar",
     "return_date": "25.09.26",
     "notify": true,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -361,6 +381,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -370,7 +394,7 @@
     "status": "verfügbar",
     "return_date": null,
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -422,6 +446,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "verfügbar"
       }
     ]
@@ -431,7 +459,7 @@
     "status": "verfügbar",
     "return_date": null,
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -483,6 +511,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "verfügbar"
       }
     ]
@@ -492,17 +524,9 @@
     "status": "nicht verfügbar",
     "return_date": "06.10.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
-        "time": "2026-09-14T13:13:56.365201+02:00",
-        "status": "nicht verfügbar"
-      },
-      {
-        "time": "2026-09-14T13:13:56.365201+02:00",
-        "status": "nicht verfügbar"
-      },
-      {
         "time": "2026-09-14T17:16:36.912393+02:00",
         "status": "nicht verfügbar"
       },
@@ -572,6 +596,14 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -581,7 +613,7 @@
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -633,6 +665,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -642,7 +678,7 @@
     "status": "nicht verfügbar",
     "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -694,6 +730,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -703,7 +743,7 @@
     "status": "nicht verfügbar",
     "return_date": "26.09.26",
     "notify": true,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -755,6 +795,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -764,7 +808,7 @@
     "status": "nicht verfügbar",
     "return_date": "30.09.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -816,6 +860,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -825,7 +873,7 @@
     "status": "nicht verfügbar",
     "return_date": "01.10.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -877,6 +925,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -886,7 +938,7 @@
     "status": "nicht verfügbar",
     "return_date": "24.09.26",
     "notify": true,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -938,6 +990,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -947,7 +1003,7 @@
     "status": "verfügbar",
     "return_date": null,
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -999,6 +1055,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "verfügbar"
       }
     ]
@@ -1008,7 +1068,7 @@
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1060,6 +1120,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1069,7 +1133,7 @@
     "status": "nicht verfügbar",
     "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1121,16 +1185,20 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=b8b58a76-57c5-4cdf-8716-d585753880dd&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Taxi Chaos",
-    "status": "verfügbar",
+    "status": "nicht verfügbar",
     "return_date": "08.10.26",
     "notify": true,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1183,6 +1251,10 @@
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
         "status": "verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
@@ -1191,7 +1263,7 @@
     "status": "nicht verfügbar",
     "return_date": "30.09.26",
     "notify": true,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1243,6 +1315,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1252,7 +1328,7 @@
     "status": "nicht verfügbar",
     "return_date": "06.10.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1304,6 +1380,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1313,7 +1393,7 @@
     "status": "nicht verfügbar",
     "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1365,6 +1445,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1374,7 +1458,7 @@
     "status": "nicht verfügbar",
     "return_date": "30.09.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1426,6 +1510,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1435,7 +1523,7 @@
     "status": "nicht verfügbar",
     "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1487,6 +1575,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1496,7 +1588,7 @@
     "status": "nicht verfügbar",
     "return_date": "13.10.26",
     "notify": true,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1549,15 +1641,19 @@
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
         "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=a0a99897-2865-4693-829f-36100566840c&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Mario Kart 8 deluxe",
-    "status": "verfügbar",
+    "status": "nicht verfügbar",
     "return_date": "23.09.26",
     "notify": true,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1610,6 +1706,10 @@
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
         "status": "verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
@@ -1618,7 +1718,7 @@
     "status": "nicht verfügbar",
     "return_date": "18.09.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1670,6 +1770,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1679,7 +1783,7 @@
     "status": "verfügbar",
     "return_date": null,
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1731,6 +1835,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "verfügbar"
       }
     ]
@@ -1740,7 +1848,7 @@
     "status": "nicht verfügbar",
     "return_date": "08.10.26",
     "notify": true,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1792,6 +1900,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1801,7 +1913,7 @@
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1853,6 +1965,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1862,7 +1978,7 @@
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1914,6 +2030,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1923,7 +2043,7 @@
     "status": "nicht verfügbar",
     "return_date": "02.10.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1975,6 +2095,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1984,7 +2108,7 @@
     "status": "nicht verfügbar",
     "return_date": "18.09.26",
     "notify": true,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -2036,6 +2160,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2045,7 +2173,7 @@
     "status": "nicht verfügbar",
     "return_date": "30.09.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -2097,6 +2225,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2106,7 +2238,7 @@
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -2158,16 +2290,20 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=24b8600a-1da8-4b87-947d-3ff652523a00&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Hello Kitty and friends - Freeze tag party",
-    "status": "verfügbar",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -2220,6 +2356,10 @@
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
         "status": "verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
@@ -2228,7 +2368,7 @@
     "status": "nicht verfügbar",
     "return_date": "01.10.26",
     "notify": true,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -2280,6 +2420,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2289,7 +2433,7 @@
     "status": "nicht verfügbar",
     "return_date": "26.09.26",
     "notify": false,
-    "last_checked": "15.09.2026 16:20",
+    "last_checked": "15.09.2026 17:14",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -2341,6 +2485,10 @@
       },
       {
         "time": "2026-09-15T16:20:59.782855+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-15T17:14:07.521760+02:00",
         "status": "nicht verfügbar"
       }
     ]
