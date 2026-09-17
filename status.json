@@ -4,7 +4,7 @@
     "status": "nicht verfügbar",
     "return_date": "08.10.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -80,16 +80,20 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=2f4d3c12-8c3e-46c8-95ac-e3a5e61611e7&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Bibi & Tina - Auf dem Martinshof",
-    "status": "nicht verfügbar",
-    "return_date": "30.09.26",
+    "status": "verfügbar",
+    "return_date": null,
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -166,15 +170,19 @@
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
         "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
+        "status": "verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=8ceb4fef-7e91-4198-a351-2a3bd15d8331&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Super Mario 3D World + Bowser's Fury",
-    "status": "nicht verfügbar",
-    "return_date": "24.09.26",
+    "status": "verfügbar",
+    "return_date": null,
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -251,15 +259,19 @@
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
         "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
+        "status": "verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=fc42a4ff-19fb-47d5-9cde-c2e96e6dffd1&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "PAW Patrol - Der Kinofilm: Abenteuerstadt ruft",
-    "status": "nicht verfügbar",
-    "return_date": "08.10.26",
+    "status": "verfügbar",
+    "return_date": null,
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -336,6 +348,10 @@
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
         "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
+        "status": "verfügbar"
       }
     ]
   },
@@ -344,7 +360,7 @@
     "status": "nicht verfügbar",
     "return_date": "24.09.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -420,16 +436,20 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=0af0548d-2f9f-477f-a890-093efa43175e&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Nickelodeon Kart Racers 3 - Slime Speedway",
-    "status": "nicht verfügbar",
-    "return_date": "25.09.26",
+    "status": "verfügbar",
+    "return_date": null,
     "notify": true,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -506,6 +526,10 @@
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
         "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
+        "status": "verfügbar"
       }
     ]
   },
@@ -514,7 +538,7 @@
     "status": "verfügbar",
     "return_date": null,
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -590,6 +614,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "verfügbar"
       }
     ]
@@ -599,7 +627,7 @@
     "status": "verfügbar",
     "return_date": null,
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -675,6 +703,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "verfügbar"
       }
     ]
@@ -684,17 +716,9 @@
     "status": "nicht verfügbar",
     "return_date": "06.10.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
-        "time": "2026-09-15T13:13:14.209689+02:00",
-        "status": "nicht verfügbar"
-      },
-      {
-        "time": "2026-09-15T13:13:14.209689+02:00",
-        "status": "nicht verfügbar"
-      },
-      {
         "time": "2026-09-15T15:06:00.044586+02:00",
         "status": "nicht verfügbar"
       },
@@ -764,6 +788,14 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -773,7 +805,7 @@
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -849,6 +881,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -858,7 +894,7 @@
     "status": "nicht verfügbar",
     "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -934,6 +970,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -943,7 +983,7 @@
     "status": "nicht verfügbar",
     "return_date": "26.09.26",
     "notify": true,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1019,6 +1059,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1028,7 +1072,7 @@
     "status": "nicht verfügbar",
     "return_date": "30.09.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1104,6 +1148,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1113,7 +1161,7 @@
     "status": "nicht verfügbar",
     "return_date": "01.10.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1189,16 +1237,20 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=0bbed633-e43e-4a1c-b760-8f5b38f34a6a&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Mario Party Superstars",
-    "status": "nicht verfügbar",
-    "return_date": "24.09.26",
+    "status": "verfügbar",
+    "return_date": null,
     "notify": true,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1275,6 +1327,10 @@
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
         "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
+        "status": "verfügbar"
       }
     ]
   },
@@ -1283,7 +1339,7 @@
     "status": "verfügbar",
     "return_date": null,
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1359,6 +1415,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "verfügbar"
       }
     ]
@@ -1368,7 +1428,7 @@
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1444,6 +1504,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1453,7 +1517,7 @@
     "status": "nicht verfügbar",
     "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1529,6 +1593,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1538,7 +1606,7 @@
     "status": "nicht verfügbar",
     "return_date": "08.10.26",
     "notify": true,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1614,6 +1682,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1623,7 +1695,7 @@
     "status": "nicht verfügbar",
     "return_date": "30.09.26",
     "notify": true,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1699,6 +1771,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1708,7 +1784,7 @@
     "status": "nicht verfügbar",
     "return_date": "06.10.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1784,6 +1860,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1793,7 +1873,7 @@
     "status": "nicht verfügbar",
     "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1869,6 +1949,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1878,7 +1962,7 @@
     "status": "nicht verfügbar",
     "return_date": "30.09.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -1954,6 +2038,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1963,7 +2051,7 @@
     "status": "nicht verfügbar",
     "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -2039,6 +2127,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2048,7 +2140,7 @@
     "status": "nicht verfügbar",
     "return_date": "13.10.26",
     "notify": true,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -2124,6 +2216,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2133,7 +2229,7 @@
     "status": "nicht verfügbar",
     "return_date": "23.09.26",
     "notify": true,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -2210,15 +2306,19 @@
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
         "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=53dfd2bb-d350-4ef5-bfe1-07c278021bc8&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Meine Tierklinik - Hund & Katze",
-    "status": "nicht verfügbar",
-    "return_date": "18.09.26",
+    "status": "verfügbar",
+    "return_date": null,
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -2295,6 +2395,10 @@
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
         "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
+        "status": "verfügbar"
       }
     ]
   },
@@ -2303,7 +2407,7 @@
     "status": "verfügbar",
     "return_date": null,
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -2379,6 +2483,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "verfügbar"
       }
     ]
@@ -2388,7 +2496,7 @@
     "status": "nicht verfügbar",
     "return_date": "08.10.26",
     "notify": true,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -2464,6 +2572,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2473,7 +2585,7 @@
     "status": "nicht verfügbar",
     "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -2549,6 +2661,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2558,7 +2674,7 @@
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -2634,6 +2750,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2643,7 +2763,7 @@
     "status": "nicht verfügbar",
     "return_date": "02.10.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -2719,6 +2839,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2728,7 +2852,7 @@
     "status": "nicht verfügbar",
     "return_date": "18.09.26",
     "notify": true,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -2804,6 +2928,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2813,7 +2941,7 @@
     "status": "nicht verfügbar",
     "return_date": "30.09.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -2889,6 +3017,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2898,7 +3030,7 @@
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -2974,6 +3106,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2983,7 +3119,7 @@
     "status": "nicht verfügbar",
     "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -3059,6 +3195,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -3068,7 +3208,7 @@
     "status": "nicht verfügbar",
     "return_date": "01.10.26",
     "notify": true,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -3144,6 +3284,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -3153,7 +3297,7 @@
     "status": "nicht verfügbar",
     "return_date": "26.09.26",
     "notify": false,
-    "last_checked": "17.09.2026 13:13",
+    "last_checked": "17.09.2026 17:15",
     "history": [
       {
         "time": "2026-09-13T16:34:23.332074+02:00",
@@ -3229,6 +3373,10 @@
       },
       {
         "time": "2026-09-17T13:13:13.822800+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-17T17:15:06.046708+02:00",
         "status": "nicht verfügbar"
       }
     ]
