@@ -4,12 +4,8 @@
     "status": "nicht verfügbar",
     "return_date": "08.10.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -84,6 +80,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -93,12 +93,8 @@
     "status": "nicht verfügbar",
     "return_date": "30.09.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -173,6 +169,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -182,12 +182,8 @@
     "status": "nicht verfügbar",
     "return_date": "20.10.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -262,6 +258,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -271,12 +271,8 @@
     "status": "nicht verfügbar",
     "return_date": "08.10.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -351,6 +347,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -360,12 +360,8 @@
     "status": "nicht verfügbar",
     "return_date": "24.09.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -440,6 +436,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -449,12 +449,8 @@
     "status": "nicht verfügbar",
     "return_date": "23.10.26",
     "notify": true,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -529,6 +525,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -538,12 +538,8 @@
     "status": "verfügbar",
     "return_date": null,
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "verfügbar"
@@ -618,6 +614,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "verfügbar"
       }
     ]
@@ -627,12 +627,8 @@
     "status": "nicht verfügbar",
     "return_date": "20.10.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "verfügbar"
@@ -707,6 +703,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -716,17 +716,9 @@
     "status": "nicht verfügbar",
     "return_date": "06.10.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
       {
-        "time": "2026-09-23T17:13:33.932258+02:00",
-        "status": "nicht verfügbar"
-      },
-      {
-        "time": "2026-09-23T17:13:33.932258+02:00",
-        "status": "nicht verfügbar"
-      },
-      {
         "time": "2026-09-24T10:11:55.594063+02:00",
         "status": "nicht verfügbar"
       },
@@ -796,21 +788,25 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=e67a4bff-7478-46d5-a4fb-933e704e7905&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Nintendo Switch Sports",
-    "status": "nicht verfügbar",
-    "return_date": "29.09.26",
+    "status": "unbekannt",
+    "return_date": null,
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -886,6 +882,10 @@
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
         "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
+        "status": "unbekannt"
       }
     ]
   },
@@ -894,12 +894,8 @@
     "status": "nicht verfügbar",
     "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -974,6 +970,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -983,12 +983,8 @@
     "status": "nicht verfügbar",
     "return_date": "26.09.26",
     "notify": true,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -1063,6 +1059,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1072,12 +1072,8 @@
     "status": "nicht verfügbar",
     "return_date": "30.09.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -1152,6 +1148,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1161,12 +1161,8 @@
     "status": "nicht verfügbar",
     "return_date": "01.10.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -1241,6 +1237,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1250,12 +1250,8 @@
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
     "notify": true,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -1330,6 +1326,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1339,12 +1339,8 @@
     "status": "verfügbar",
     "return_date": null,
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "verfügbar"
@@ -1419,6 +1415,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "verfügbar"
       }
     ]
@@ -1428,12 +1428,8 @@
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -1508,6 +1504,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1517,12 +1517,8 @@
     "status": "nicht verfügbar",
     "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -1597,6 +1593,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1606,12 +1606,8 @@
     "status": "nicht verfügbar",
     "return_date": "08.10.26",
     "notify": true,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -1686,6 +1682,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1695,12 +1695,8 @@
     "status": "nicht verfügbar",
     "return_date": "30.09.26",
     "notify": true,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -1775,6 +1771,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1784,12 +1784,8 @@
     "status": "nicht verfügbar",
     "return_date": "06.10.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -1864,6 +1860,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1873,12 +1873,8 @@
     "status": "nicht verfügbar",
     "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -1953,6 +1949,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -1962,12 +1962,8 @@
     "status": "nicht verfügbar",
     "return_date": "30.09.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -2042,6 +2038,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2051,12 +2051,8 @@
     "status": "nicht verfügbar",
     "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -2131,6 +2127,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2140,12 +2140,8 @@
     "status": "nicht verfügbar",
     "return_date": "13.10.26",
     "notify": true,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -2220,6 +2216,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2229,12 +2229,8 @@
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
     "notify": true,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -2309,6 +2305,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2318,12 +2318,8 @@
     "status": "nicht verfügbar",
     "return_date": "23.10.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "verfügbar"
@@ -2398,6 +2394,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2407,12 +2407,8 @@
     "status": "verfügbar",
     "return_date": null,
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "verfügbar"
@@ -2487,6 +2483,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "verfügbar"
       }
     ]
@@ -2496,12 +2496,8 @@
     "status": "nicht verfügbar",
     "return_date": "08.10.26",
     "notify": true,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -2576,6 +2572,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2585,12 +2585,8 @@
     "status": "nicht verfügbar",
     "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -2665,6 +2661,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2674,12 +2674,8 @@
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -2754,6 +2750,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2763,12 +2763,8 @@
     "status": "nicht verfügbar",
     "return_date": "02.10.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -2843,6 +2839,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2852,12 +2852,8 @@
     "status": "nicht verfügbar",
     "return_date": "15.10.26",
     "notify": true,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -2932,6 +2928,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -2941,12 +2941,8 @@
     "status": "nicht verfügbar",
     "return_date": "30.09.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -3021,6 +3017,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -3030,12 +3030,8 @@
     "status": "nicht verfügbar",
     "return_date": "29.09.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -3110,6 +3106,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -3119,12 +3119,8 @@
     "status": "nicht verfügbar",
     "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -3199,6 +3195,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
@@ -3208,12 +3208,8 @@
     "status": "nicht verfügbar",
     "return_date": "01.10.26",
     "notify": true,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -3289,6 +3285,10 @@
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
         "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
@@ -3297,12 +3297,8 @@
     "status": "nicht verfügbar",
     "return_date": "26.09.26",
     "notify": false,
-    "last_checked": "26.09.2026 10:11",
+    "last_checked": "26.09.2026 10:22",
     "history": [
-      {
-        "time": "2026-09-20T17:13:03.525881+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-21T10:12:07.404741+02:00",
         "status": "nicht verfügbar"
@@ -3377,6 +3373,10 @@
       },
       {
         "time": "2026-09-26T10:11:50.414979+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-09-26T10:22:48.031436+02:00",
         "status": "nicht verfügbar"
       }
     ]
