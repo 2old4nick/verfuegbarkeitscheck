@@ -205,6 +205,10 @@ def main():
             }
         browser.close()
 
+    # Einträge entfernen, deren URL nicht mehr in urls.json vorkommt
+    aktuelle_urls = {entry["url"] for entry in urls}
+    status = {url: info for url, info in status.items() if url in aktuelle_urls}
+
     save_status(status)
     build_html(status)
 
