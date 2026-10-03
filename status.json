@@ -1,15 +1,11 @@
 {
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=2f4d3c12-8c3e-46c8-95ac-e3a5e61611e7&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Bibi & Tina - Auf dem Martinshof",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "27.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -85,20 +81,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=8ceb4fef-7e91-4198-a351-2a3bd15d8331&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Super Mario 3D World + Bowser's Fury",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "20.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -174,20 +170,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=fc42a4ff-19fb-47d5-9cde-c2e96e6dffd1&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "PAW Patrol - Der Kinofilm: Abenteuerstadt ruft",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "08.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -263,20 +259,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=43a88c58-9d8d-4e78-a20c-f80ce7232313&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Super Mario Bros. Wonder",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "24.09.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -352,20 +348,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=0af0548d-2f9f-477f-a890-093efa43175e&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Nickelodeon Kart Racers 3 - Slime Speedway",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "23.10.26",
     "notify": true,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -441,20 +437,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=facf2541-fa29-4c47-9579-ae2e03a8184d&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Barbie Dreamhouse Adventures",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "30.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "verfügbar"
@@ -530,20 +526,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=5f06a836-f8df-4408-a468-97a60c444ed0&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Overcooked! + Overcooked! 2",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "20.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -619,25 +615,21 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=23f3a6b0-b9af-45b3-99e1-a5ba2558bbd5&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Super Mario galaxy + Super Mario galaxy 2",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "06.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
       {
-        "time": "2026-09-30T10:13:34.731982+02:00",
-        "status": "nicht verfügbar"
-      },
-      {
-        "time": "2026-09-30T10:13:34.731982+02:00",
-        "status": "nicht verfügbar"
-      },
-      {
         "time": "2026-09-30T13:13:23.545924+02:00",
         "status": "nicht verfügbar"
       },
@@ -708,20 +700,24 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=e67a4bff-7478-46d5-a4fb-933e704e7905&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Nintendo Switch Sports",
-    "status": "unbekannt",
+    "status": "verfügbar",
     "return_date": null,
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "verfügbar"
@@ -797,20 +793,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=cbefdb1a-1de5-45a8-9a7d-4e6ccac72aa6&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Paw Patrol: Mighty Pups - Die Rettung der Abenteuerbucht",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -886,20 +882,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=d541fefb-71cf-491b-80ca-8236ebec043b&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Catan",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "24.10.26",
     "notify": true,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -975,20 +971,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=0cbd48e4-b985-4e03-84ba-26b862faa640&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Little kitty, big city",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "27.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -1064,20 +1060,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=57b5c802-0561-4978-9ccf-c50141c32959&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Cat rescue story",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "30.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -1153,20 +1149,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=0bbed633-e43e-4a1c-b760-8f5b38f34a6a&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Mario Party Superstars",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "01.10.26",
     "notify": true,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "verfügbar"
@@ -1242,20 +1238,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=3f764625-7c73-4303-bdd4-e8ca44e1d0a4&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Family fun night",
-    "status": "unbekannt",
+    "status": "verfügbar",
     "return_date": null,
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "verfügbar"
@@ -1331,20 +1327,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=121b76ca-7303-443a-bdc2-2f88e3d29506&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Instant sports - Tennis",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "27.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -1420,20 +1416,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=0cde3fdd-44cc-4112-9596-6d6bfb9da114&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Barbie - Das Freundschaftsprojekt",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -1509,20 +1505,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=64882327-d8c8-411b-8d7a-aa3177af8d26&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Super Mario Party",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "30.10.26",
     "notify": true,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -1598,20 +1594,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=03c46934-26ae-4895-a6f3-bc4624ff1539&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "51 worldwide games",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "06.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -1687,20 +1683,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=3dd8f77d-175f-4786-9cc2-9056445f51e6&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Hello Kitty island adventures",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -1776,20 +1772,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=34b98fc8-49e3-4ebe-a076-735aeaa554e6&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Miraculous: rise of the sphinx",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "30.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -1865,20 +1861,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=e73a2602-9cb1-4260-8ef5-c6383f48fc18&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Garfield - Lasagna party",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -1954,20 +1950,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=ce41b72e-a7a8-46a1-be3b-b04188eb24cf&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Paw Patrol - Grand Prix",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "13.10.26",
     "notify": true,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -2043,20 +2039,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=53dfd2bb-d350-4ef5-bfe1-07c278021bc8&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Meine Tierklinik - Hund & Katze",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "23.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -2132,20 +2128,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=a7ee5835-8475-4e32-8c9f-f33933816aad&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Pierre, der Irrgarten-Detektiv jagt Mr. X",
-    "status": "unbekannt",
+    "status": "verfügbar",
     "return_date": null,
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "verfügbar"
@@ -2221,20 +2217,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=47167a10-8ff1-4307-ba05-459ca843583d&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Landwirtschafts-Simulator 26",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "30.10.26",
     "notify": true,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -2310,20 +2306,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=f4f50000-f2d8-46e3-90eb-7c65c4aa4eaf&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Princess Peach - Showtime!",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -2399,20 +2395,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=52844715-a4a4-4749-a62d-6f06bf28a7da&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Super Mario 3D - All Stars",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "27.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -2488,20 +2484,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=785e3505-b08c-4736-a8aa-a35e69e2dfa0&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "It takes two",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "27.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -2577,20 +2573,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=b5d805fa-0f15-464b-8fb2-54ada90aaca8&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Bus Simulator",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "30.10.26",
     "notify": true,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -2666,20 +2662,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=a21eeff8-357b-47b6-9422-5f403431b1c6&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Bibi & Tina: das Spiel zum Kinofilm",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "27.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -2755,20 +2751,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=df8abf12-ae02-4779-afee-cefb566c92a5&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Instant sports - winter games",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "27.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -2844,20 +2840,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=24b8600a-1da8-4b87-947d-3ff652523a00&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Hello Kitty and friends - Freeze tag party",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "13.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -2933,20 +2929,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=3e2fed09-49d7-4e09-a04b-e8d7723fa99f&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Garfield Kart - Furious racing",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "29.10.26",
     "notify": true,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "nicht verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "nicht verfügbar"
@@ -3022,20 +3018,20 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=a2ada420-f6ad-44b4-9a59-d24f48e0cfa0&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "30 Sport Games in 1",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "27.10.26",
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
-      {
-        "time": "2026-09-27T10:11:00.315476+02:00",
-        "status": "verfügbar"
-      },
       {
         "time": "2026-09-27T13:12:37.654934+02:00",
         "status": "verfügbar"
@@ -3111,15 +3107,19 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=93e1cd09-548d-46b8-b9f6-3cfd65f3db16&p_r_p_arena_urn%3Aarena_facet_queries=&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&_crDetailWicket_WAR_arenaportlet_back_url=https%3A%2F%2Foffenburg.arena.axiell.de%2Fsuche%3Fp_p_id%3DsearchResult_WAR_arenaportlet%26p_p_lifecycle%3D1%26p_p_state%3Dnormal%26p_r_p_arena_urn%253Aarena_facet_queries%3D%26_searchResult_WAR_arenaportlet_agency_name%3DADEOFFENBURG%26p_r_p_arena_urn%253Aarena_search_item_no%3D0%26p_r_p_arena_urn%253Aarena_search_query%3Dblack%2Bdog%26p_r_p_arena_urn%253Aarena_search_type%3Dsolr%26p_r_p_arena_urn%253Aarena_sort_advice%3Dfield%253DRelevance%2526direction%253DDescending%26_searchResult_WAR_arenaportlet_arena_member_id%3D501145741&p_r_p_arena_urn%3Aarena_search_query=black+dog&p_r_p_arena_urn%3Aarena_search_type=solr&p_r_p_arena_urn%3Aarena_sort_advice=field%3DRelevance%26direction%3DDescending&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Black DOG",
-    "status": "unbekannt",
+    "status": "verfügbar",
     "return_date": null,
     "notify": false,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
       {
         "time": "2026-09-29T10:17:14.728291+02:00",
@@ -3176,15 +3176,19 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=fbcbe9db-0475-4ead-9b7d-1203bb83d20b&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Skyjo",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "22.10.26",
     "notify": true,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
       {
         "time": "2026-09-29T10:17:14.728291+02:00",
@@ -3241,15 +3245,19 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=5658b013-3e91-4a15-a553-0fddaa77da6e&p_r_p_arena_urn%3Aarena_facet_queries=mediaClass_facet%3Dgame&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=0&_crDetailWicket_WAR_arenaportlet_back_url=https%3A%2F%2Foffenburg.arena.axiell.de%2Fsuche%3Fp_p_id%3DsearchResult_WAR_arenaportlet%26p_p_lifecycle%3D1%26p_p_state%3Dnormal%26p_r_p_arena_urn%253Aarena_facet_queries%3DmediaClass_facet%253Dgame%26_searchResult_WAR_arenaportlet_agency_name%3DADEOFFENBURG%26p_r_p_arena_urn%253Aarena_search_item_no%3D0%26p_r_p_arena_urn%253Aarena_search_query%3Dskijo%26p_r_p_arena_urn%253Aarena_search_type%3Dsolr%26p_r_p_arena_urn%253Aarena_sort_advice%3Dfield%253DRelevance%2526direction%253DDescending%26_searchResult_WAR_arenaportlet_arena_member_id%3D501145741&p_r_p_arena_urn%3Aarena_search_query=skijo&p_r_p_arena_urn%3Aarena_search_type=solr&p_r_p_arena_urn%3Aarena_sort_advice=field%3DRelevance%26direction%3DDescending&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Skyjo Action",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "28.10.26",
     "notify": true,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
       {
         "time": "2026-09-29T10:17:14.728291+02:00",
@@ -3306,15 +3314,19 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   },
   "https://offenburg.arena.axiell.de/results?p_p_id=crDetailWicket_WAR_arenaportlet&p_p_lifecycle=1&p_p_state=normal&p_r_p_arena_urn%3Aarena_search_item_id=e48f671f-4761-46cd-b6e4-3156dc1ca482&p_r_p_arena_urn%3Aarena_facet_queries=&p_r_p_arena_urn%3Aarena_agency_name=ADEOFFENBURG&p_r_p_arena_urn%3Aarena_search_item_no=1&_crDetailWicket_WAR_arenaportlet_back_url=https%3A%2F%2Foffenburg.arena.axiell.de%2Fsuche%3Fp_p_id%3DsearchResult_WAR_arenaportlet%26p_p_lifecycle%3D1%26p_p_state%3Dnormal%26p_r_p_arena_urn%253Aarena_facet_queries%3D%26_searchResult_WAR_arenaportlet_agency_name%3DADEOFFENBURG%26p_r_p_arena_urn%253Aarena_search_item_no%3D1%26p_r_p_arena_urn%253Aarena_search_query%3DUnlock%2521%26p_r_p_arena_urn%253Aarena_search_type%3Dsolr%26p_r_p_arena_urn%253Aarena_sort_advice%3Dfield%253DRelevance%2526direction%253DDescending%26_searchResult_WAR_arenaportlet_arena_member_id%3D501145741&p_r_p_arena_urn%3Aarena_search_query=Unlock%21&p_r_p_arena_urn%3Aarena_search_type=solr&p_r_p_arena_urn%3Aarena_sort_advice=field%3DRelevance%26direction%3DDescending&p_r_p_arena_urn%3Aarena_arena_member_id=501145741": {
     "name": "Unlock! Kids : Detektivgeschichten",
-    "status": "unbekannt",
-    "return_date": null,
+    "status": "nicht verfügbar",
+    "return_date": "29.10.26",
     "notify": true,
-    "last_checked": "03.10.2026 10:12",
+    "last_checked": "03.10.2026 10:56",
     "history": [
       {
         "time": "2026-09-29T10:17:14.728291+02:00",
@@ -3371,6 +3383,10 @@
       {
         "time": "2026-10-03T10:12:16.003450+02:00",
         "status": "unbekannt"
+      },
+      {
+        "time": "2026-10-03T10:56:59.081305+02:00",
+        "status": "nicht verfügbar"
       }
     ]
   }
