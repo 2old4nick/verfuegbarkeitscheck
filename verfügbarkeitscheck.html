@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>v-check</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 2rem; background: #fafafa; }
+  .hidden { display: none !important; }
+  .table-wrap { overflow-x: auto; max-width: 100%; }
+  table { border-collapse: collapse; width: max-content; }
+  th, td { border: 1px solid #ddd; padding: 0.6rem; text-align: left; white-space: nowrap; }
+  th { background: #f0f0f0; }
+  .ok { color: #1a7f37; font-weight: bold; }
+  .nok { color: #cf222e; font-weight: bold; }
+  .na { color: #888; }
+  .meta { color: #666; font-size: 0.9rem; margin: 0.5rem 0 1rem; }
+  .err { color: #cf222e; margin-top: 0.5rem; }
+  #login-form { display: flex; flex-direction: column; gap: 0.6rem; max-width: 18rem; }
+  #add-form { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; margin: 1rem 0; }
+  #add-form input[type="text"], #add-form input[type="url"] { min-width: 14rem; }
+  input, button { padding: 0.5rem; font: inherit; }
+  td button { padding: 0.2rem 0.5rem; cursor: pointer; background: none; border: 1px solid transparent; }
+  td button:hover { border-color: #ddd; background: #f0f0f0; }
+  td button.off { opacity: 0.25; }
+  td.del { padding: 0.6rem 0.3rem; }
+  td.del button { font-size: 0.75rem; color: #999; opacity: 0.6; padding: 0.1rem 0.35rem; }
+  td.del button:hover { color: #cf222e; opacity: 1; }
+</style>
+</head>
+<body>
+
+<!-- Login -->
+<form id="login-form">
+  <input id="email" type="email" placeholder="E-Mail" autocomplete="username" required>
+  <input id="password" type="password" placeholder="Passwort" autocomplete="current-password" required>
+  <button type="submit">Anmelden</button>
+  <div id="login-error" class="err"></div>
+</form>
+
+<!-- Geschützter Bereich -->
+<div id="app" class="hidden">
+  <form id="add-form">
+    <input id="new-name" type="text" placeholder="Titel" required>
+    <input id="new-url" type="url" placeholder="URL (https://…)" pattern="https?://.+" required>
+    <label><input id="new-notify" type="checkbox"> 🔔 Benachrichtigung</label>
+    <button type="submit">Hinzufügen</button>
+  </form>
+  <div id="app-error" class="err"></div>
+
+  <div class="meta" id="meta"></div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th></th><th>Titel</th><th>Status</th><th>Voraussichtliche Rückgabe</th><th>🔔</th></tr>
+      </thead>
+      <tbody id="list"></tbody>
+    </table>
+  </div>
+  <p><button id="logout" type="button">Abmelden</button></p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script>
+// Der anon-Key ist öffentlich vorgesehen; Schutz erfolgt über RLS (nur "authenticated") und deaktivierte Registrierung.
+const SUPABASE_URL = 'https://fsbvxrlctthzcaxmrgqj.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_XrgK0YFnfvWRx1b_TwxQ8g_ROxkaQ9b';
+
+const db = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const $ = (id) => document.getElementById(id);
+
+function showApp(loggedIn) {
+  $('login-form').classList.toggle('hidden', loggedIn);
+  $('app').classList.toggle('hidden', !loggedIn);
+}
+
+function setError(msg) { $('app-error').textContent = msg || ''; }
+
+function fmtDate(d) {
+  if (!d) return '–';
+  const dt = new Date(d);
+  if (isNaN(dt)) return String(d);
+  return dt.toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: '2-digit' });
+}
+
+function hasStatus(status) { return !!(status && status.trim()); }
+function isAvailable(status) {
+  return /verf[üu]gbar/i.test(status || '') && !/nicht/i.test(status || '');
+}
+function isHttpUrl(u) { return /^https?:\/\//i.test(u || ''); }
+
+function makeCell(tr, align) {
+  const td = document.createElement('td');
+  if (align) td.style.textAlign = align;
+  tr.appendChild(td);
+  return td;
+}
+
+function renderRow(item) {
+  const tr = document.createElement('tr');
+
+  // Löschen (links, dezent)
+  const tdDel = makeCell(tr, 'center');
+  tdDel.className = 'del';
+  const del = document.createElement('button');
+  del.type = 'button';
+  del.textContent = '✕';
+  del.title = 'Löschen';
+  del.addEventListener('click', () => deleteItem(item));
+  tdDel.appendChild(del);
+
+  // Titel (kein Link)
+  makeCell(tr).textContent = item.name || '';
+
+  // Status
+  const tdStatus = makeCell(tr);
+  if (hasStatus(item.status)) {
+    tdStatus.textContent = item.status;
+    tdStatus.className = isAvailable(item.status) ? 'ok' : 'nok';
+  } else {
+    tdStatus.textContent = '–';
+    tdStatus.className = 'na';
+  }
+
+  // Rückgabe
+  makeCell(tr).textContent = fmtDate(item.return_date);
+
+  // Benachrichtigung umschalten
+  const tdBell = makeCell(tr, 'center');
+  const bell = document.createElement('button');
+  bell.type = 'button';
+  bell.textContent = '🔔';
+  bell.title = item.notify ? 'Benachrichtigung aus' : 'Benachrichtigung ein';
+  if (!item.notify) bell.className = 'off';
+  bell.addEventListener('click', () => toggleNotify(item));
+  tdBell.appendChild(bell);
+
+  return tr;
+}
+
+async function loadList() {
+  setError('');
+  const { data, error } = await db
+    .from('vc_items')
+    .select('id, name, url, status, return_date, notify, last_checked');
+  if (error) { setError('Fehler beim Laden.'); return; }
+
+  // verfügbare zuerst, dann nach Rückgabedatum, dann nach Name
+  data.sort((a, b) => {
+    const av = isAvailable(a.status), bv = isAvailable(b.status);
+    if (av !== bv) return av ? -1 : 1;
+    const ad = a.return_date || '9999', bd = b.return_date || '9999';
+    if (ad !== bd) return ad < bd ? -1 : 1;
+    return (a.name || '').localeCompare(b.name || '', 'de');
+  });
+
+  $('list').replaceChildren(...data.map(renderRow));
+
+  const last = data.map(d => d.last_checked).filter(Boolean).sort().pop();
+  $('meta').textContent = last
+    ? 'Letztes Update: ' + new Date(last).toLocaleString('de-DE', { dateStyle: 'short', timeStyle: 'short' })
+    : '';
+}
+
+async function toggleNotify(item) {
+  setError('');
+  const { error } = await db.from('vc_items').update({ notify: !item.notify }).eq('id', item.id);
+  if (error) { setError('Änderung fehlgeschlagen.'); return; }
+  loadList();
+}
+
+async function deleteItem(item) {
+  if (!confirm('„' + (item.name || '') + '“ wirklich löschen?')) return;
+  setError('');
+  const { error } = await db.from('vc_items').delete().eq('id', item.id);
+  if (error) { setError('Löschen fehlgeschlagen.'); return; }
+  loadList();
+}
+
+$('add-form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  setError('');
+  const name = $('new-name').value.trim();
+  const url = $('new-url').value.trim();
+  if (!name || !isHttpUrl(url)) { setError('Titel und gültige URL (http/https) angeben.'); return; }
+  const { error } = await db.from('vc_items').insert({
+    name, url, notify: $('new-notify').checked
+  });
+  if (error) { setError('Hinzufügen fehlgeschlagen.'); return; }
+  $('add-form').reset();
+  loadList();
+});
+
+$('login-form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  $('login-error').textContent = '';
+  const { error } = await db.auth.signInWithPassword({
+    email: $('email').value,
+    password: $('password').value
+  });
+  if (error) { $('login-error').textContent = 'Anmeldung fehlgeschlagen.'; return; }
+  $('password').value = '';
+});
+
+$('logout').addEventListener('click', () => db.auth.signOut());
+
+db.auth.onAuthStateChange((_event, session) => {
+  showApp(!!session);
+  if (session) loadList();
+  else $('list').replaceChildren();
+});
+</script>
+</body>
+</html>
